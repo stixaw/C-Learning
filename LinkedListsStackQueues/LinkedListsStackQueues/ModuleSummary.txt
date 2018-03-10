@@ -1,0 +1,13 @@
+﻿LinkedList<t>
+	list with fast adding/Removing elements
+
+LinkedListNode<t>
+	Required to store items in linked list
+
+Stack<T>
+	First in Last out List
+
+Queue<T>
+	Remove items in same order as added (First In First Out  fifo)
+
+All members of the System.Collections.Generic namespace.

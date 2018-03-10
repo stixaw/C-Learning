@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\bin\Debug\LinkedListsStackQueues.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\bin\Debug\LinkedListsStackQueues.exe
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\bin\Debug\LinkedListsStackQueues.pdb
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\obj\Debug\LinkedListsStackQueues.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\obj\Debug\LinkedListsStackQueues.exe
+c:\users\owner\documents\visual studio 2015\Projects\LinkedListsStackQueues\LinkedListsStackQueues\obj\Debug\LinkedListsStackQueues.pdb

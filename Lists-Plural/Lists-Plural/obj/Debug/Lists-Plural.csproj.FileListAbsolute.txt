@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\bin\Debug\Lists-Plural.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\bin\Debug\Lists-Plural.exe
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\bin\Debug\Lists-Plural.pdb
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\obj\Debug\Lists-Plural.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\obj\Debug\Lists-Plural.exe
+c:\users\owner\documents\visual studio 2015\Projects\Lists-Plural\Lists-Plural\obj\Debug\Lists-Plural.pdb
