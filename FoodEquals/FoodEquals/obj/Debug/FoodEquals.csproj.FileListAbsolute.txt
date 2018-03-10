@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\bin\Debug\FoodEquals.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\bin\Debug\FoodEquals.exe
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\bin\Debug\FoodEquals.pdb
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\obj\Debug\FoodEquals.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\obj\Debug\FoodEquals.exe
+c:\users\owner\documents\visual studio 2015\Projects\FoodEquals\FoodEquals\obj\Debug\FoodEquals.pdb

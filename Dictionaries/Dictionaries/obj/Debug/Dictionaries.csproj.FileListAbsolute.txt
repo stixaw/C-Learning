@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\bin\Debug\Dictionaries.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\bin\Debug\Dictionaries.exe
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\bin\Debug\Dictionaries.pdb
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\obj\Debug\Dictionaries.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\obj\Debug\Dictionaries.exe
+c:\users\owner\documents\visual studio 2015\Projects\Dictionaries\Dictionaries\obj\Debug\Dictionaries.pdb

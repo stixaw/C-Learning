@@ -1,0 +1,11 @@
+﻿Dictionary<Tkey, TValue>
+	General purpose dictionary
+
+ReadOnlyDictionary<Tkey, TValue>
+SortedList<Tkey, Tvalue>
+SortedDictionary<Tkey, Tvalue>
+	Dictionaries that sort their elements
+KeyCollection<Tkey, Tvalue>
+	Customizable
+Hash tables
+	Hash Code
