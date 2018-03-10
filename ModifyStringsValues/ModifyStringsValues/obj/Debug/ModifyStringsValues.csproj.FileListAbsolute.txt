@@ -1,0 +1,1 @@
+c:\users\owner\documents\visual studio 2015\Projects\ModifyStringsValues\ModifyStringsValues\bin\Debug\ModifyStringsValues.exe.config

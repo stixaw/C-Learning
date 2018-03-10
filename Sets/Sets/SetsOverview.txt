@@ -1,0 +1,6 @@
+﻿HashSet<T>
+SortedSet<t>
+ISet<T> interface
+	Set operations
+	Set comparisons
+Uniqueness of Elements

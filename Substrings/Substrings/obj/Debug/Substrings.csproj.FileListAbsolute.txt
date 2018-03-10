@@ -1,0 +1,6 @@
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\bin\Debug\Substrings.exe.config
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\bin\Debug\Substrings.exe
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\bin\Debug\Substrings.pdb
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\obj\Debug\Substrings.csprojResolveAssemblyReference.cache
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\obj\Debug\Substrings.exe
+c:\users\owner\documents\visual studio 2015\Projects\Substrings\Substrings\obj\Debug\Substrings.pdb
