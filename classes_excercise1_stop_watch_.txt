@@ -1,0 +1,90 @@
+using System;
+
+namespace Exercise1
+{
+	class StopWatch
+	{
+		private DateTime _start;
+		private DateTime _stop;
+		private TimeSpan _timespan;
+		private bool _started;
+
+		public void SartTime()
+		{
+			if(_started)
+				Console.WriteLine("Stopwatch already started");
+			else
+				_start = DateTime.Now;
+				_started = true;
+		}
+
+		public void StopTime()
+		{
+			if (!_started)
+				Console.WriteLine("Stopwatch is not started");
+			else
+			{
+				_stop = DateTime.Now;
+				Duration();
+				Console.WriteLine("Time: {0}:{1}", _timespan.Minutes,_timespan.Seconds);
+				_started = false;
+			}
+
+		}
+
+		public TimeSpan Duration()
+		{
+			if (_start == null && _stop == null)
+				throw new InvalidOperationException("Stopwatch not started//or still running");
+			else
+			_timespan = _stop - _start;
+			Console.WriteLine(_timespan + "timespan for debugging");
+			return _timespan;
+		}
+	}
+}
+=======================================================================================================
+using System;
+
+namespace Exercise1
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			var stopwatch = new StopWatch();
+			string Title = "STOPWATCH";
+			string RunningTitle = "STOPWATCH RUNNING";
+			bool go = true;
+			int input;
+			Console.WriteLine(Title);
+
+			while (go)
+			{
+				Console.WriteLine("Press '1' to start, 2 to stop, 3 to quit");
+				input = Convert.ToInt32(Console.ReadLine());
+
+
+				switch (input)
+				{
+					case 1:
+						stopwatch.SartTime();
+						Console.WriteLine(RunningTitle);
+						break;
+					case 2:
+						stopwatch.StopTime();
+						Console.WriteLine(Title);
+						break;
+					case 3:
+						go = false;
+						break;
+					default:
+						Console.WriteLine("Input was invalid, try Again");
+						break;
+				}
+			}
+
+		}
+	}
+}

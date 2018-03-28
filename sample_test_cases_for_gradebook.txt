@@ -1,0 +1,43 @@
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ClassesAndObjects;
+
+
+namespace Class.Tests
+{
+	[TestClass]
+	public class GradeBookTests
+	{
+		[TestMethod]
+		public void TestMethod1()
+		{
+			bool value = true;
+
+			Assert.IsTrue(value);
+		}
+		[TestMethod]
+		public void CalculateHighestGrade()
+		{
+			Gradebook book = new Gradebook();
+
+			book.AddGrade(90f);
+			book.AddGrade(50f);
+			book.AddGrade(100f);
+
+			GradeStatistics stats = book.ComputeStatistics();
+
+			Assert.AreEqual(100f, stats.HighGrade);
+		}
+		[TestMethod]
+		public void PassByValue()
+		{
+			Gradebook book = new Gradebook();
+			book.Name = "Not Set";
+			SetName(book);
+			Assert.AreEqual("Name Set", book.Name);
+		}
+		void SetName(Gradebook book)
+		{
+			book.Name = "Name Set";
+
+		}

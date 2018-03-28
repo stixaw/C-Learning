@@ -1,0 +1,138 @@
+using System;
+
+
+namespace ClassesExercize2Post
+{
+	public class Post
+	{
+		public string Title { get; private set; }
+		public string Description { get; private set; }
+		private DateTime _createdOn { get; set; }
+		public int Rating { get; private set; }
+
+
+		public Post(string title, string description)
+		{
+			Title = title;
+			Description = description;
+			_createdOn = DateTime.Now;
+			Rating = 0;
+		}
+
+		public void ReadPost()
+		{
+			Console.WriteLine(Title);
+			Console.WriteLine(Description);
+			Console.WriteLine("Posted: {0:r}", _createdOn);
+			Console.WriteLine("Rating: {0}", Rating);
+			CastVote();
+		}
+		public void CastVote()
+		{
+			Console.WriteLine("Please enter 1 to upvote, 2 to downvote");
+			int input = Convert.ToInt32(Console.ReadLine());
+
+			switch (input)
+			{
+				case 1:
+					Rating++;
+					Console.WriteLine("Rating: {0}", Rating);
+					break;
+				case 2:
+					Rating--;
+					Console.WriteLine("Rating: {0}", Rating);
+					break;
+				default:
+					Console.WriteLine("Invalid entry try again");
+					break;
+			}
+
+		}
+
+		public static string SetTitle()
+		{
+			bool go = true;
+			string myTitle;
+			string input = "";
+
+			while (go)
+			{
+				Console.WriteLine("Please enter a title for your post");
+				input = Console.ReadLine();
+				if (String.IsNullOrWhiteSpace(input))
+				{
+					Console.WriteLine("Invalid Input please try again");
+
+				}
+				else
+				{
+					go = false;
+				}
+
+			}
+			myTitle = input;
+			return myTitle;
+		}
+
+		public static string SetDescription()
+		{
+			bool go = true;
+			string myDesc;
+			string input = "";
+
+			while (go)
+			{
+				Console.WriteLine("Please enter your description.");
+				input = Console.ReadLine();
+				if (String.IsNullOrWhiteSpace(input))
+				{
+					Console.WriteLine("Invalid Input please try again");
+				}
+				else
+				{
+					go = false;
+				}
+			}
+			myDesc = input;
+			return myDesc;
+		}
+
+	}
+}
+=====================================================================================================using System;
+
+
+namespace ClassesExercize2Post
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			string title = Post.SetTitle();
+			string description = Post.SetDescription();
+			var post = new Post(title, description);
+
+			NewPost(post);
+
+		}
+
+		public static void NewPost(Post post)
+		{
+			Console.WriteLine("Would like to read the new post? enter " + @"yes " + "or " + @"no.");
+			var input = Console.ReadLine();
+
+			switch (input)
+			{
+				case "yes":
+					post.ReadPost();
+					break;
+				case "no":
+					break;
+				default:
+					Console.WriteLine("Invalid input try again");
+					break;
+
+			}
+		}
+	}
+}
