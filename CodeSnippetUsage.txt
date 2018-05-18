@@ -1,0 +1,3 @@
+Copy Unit Test Snippet to:
+
+C:\Users\adminuser\Documents\Visual Studio 2017\Code Snippets\Visual C#\My Code Snippets
